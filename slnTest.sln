@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webTest", "webTest", "{3815FEB4-A349-45B9-A281-CAF5524A16F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "clsTest", "clsTest", "{296D7166-375A-4BBC-A6CE-E4FE1E86E924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apiTest", "apiTest", "{37DB64DF-23BA-4D01-A7D2-43F50B2FF7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrjWeg", "PrjWeg\PrjWeg.csproj", "{9B1D54AB-9B6A-4D0B-91A1-FCB7C03A51ED}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B1D54AB-9B6A-4D0B-91A1-FCB7C03A51ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1D54AB-9B6A-4D0B-91A1-FCB7C03A51ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1D54AB-9B6A-4D0B-91A1-FCB7C03A51ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1D54AB-9B6A-4D0B-91A1-FCB7C03A51ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B1D54AB-9B6A-4D0B-91A1-FCB7C03A51ED} = {3815FEB4-A349-45B9-A281-CAF5524A16F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FEF83B78-9F8D-421D-837B-7A3298CA3E21}
